@@ -1,0 +1,37 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "description": "Two imprisoned",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0111161%2F&psig=AOvVaw3",
+
+        "medias" : {
+            "type": "images",
+            "images" : [
+                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0111161%2F&psig=AOvVaw3",
+                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0111161%2F&psig=AOvVaw3",
+                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0111161%2F&psig=AOvVaw3",
+                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0111161%2F&psig=AOvVaw3"
+            ]
+        },
+
+        "button": {
+            "text": "Watch Now",
+            "link": "https://www.imdb.com/title/tt0111161/"
+        }        
+    }, 
+    {
+        "title": "Shrek",
+        "description": "An ogre, in order to regain his swamp, travels along with an annoying donkey in order to bring a princess to a scheming lord, wishing himself King.",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0126029%2F&psig=AOvVaw3",
+
+        "medias" : {
+            "type": "videos",
+            "video": "https://www.youtube.com/watch?v=W37DlG1i61s"
+        },
+
+        "button": {
+            "text": "Watch Now",
+            "link": "https://www.imdb.com/title/tt0068646/"
+        }    
+    }
+]
