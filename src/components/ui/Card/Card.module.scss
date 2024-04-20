@@ -1,0 +1,63 @@
+@mixin onCardHover() { 
+    &::after, &::before {
+        opacity: 1;
+    }
+}
+
+
+$after-size: 400px;
+
+.card { 
+    display: grid;
+    place-items: center;
+    position: relative;
+    padding: 1.5px;
+    border-radius: $border-radius;
+    box-shadow: var(--basic-shadow, $basic-shadow);
+    transition: transform 1s cubic-bezier(.03,.98,.52,.99);
+    
+    &::after, &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        -webkit-user-select: none;
+        user-select: none;
+        border-radius: inherit;
+        opacity: 0;
+        transition: opacity .4s ease;
+    }
+    
+    &::after{
+        background: radial-gradient($after-size circle at var(--data-light-x, 50%) var(--data-light-y, 50%), 
+            color-mix(in lab, #151515 15%, var(--_after-color, currentColor)), 
+            transparent 70%
+        );
+        z-index: -1;
+    }
+    &::before{
+        background: radial-gradient($after-size / 2 circle at var(--data-light-x, 50%) var(--data-light-y, 50%), 
+            rgb(255,255,255, .5), 
+            transparent 70%
+        );
+        z-index: 1;
+    }
+
+    & > * {
+        position: relative;
+        width: calc(100% - 1.5px);
+        overflow: hidden;
+        outline: none;
+    }
+
+    &:is(:hover, :focus-within) {
+        transform: scale(1.05);
+        
+        @include onCardHover();
+    }
+
+    @media screen and (pointer: coarse) {
+        @include onCardHover();
+    }
+}
+

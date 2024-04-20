@@ -8,9 +8,22 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --primary-color: #ffffff;
+    --primary-color-variant: #FBEAFF;
+
+    --secondary-color: #000;
+    --secondary-color-variant: #101010;
+
+    --accent-color: #180444;
+
+    --basic-shadow: 0 0 10px rgb(255, 255, 255, .05);
+    --header-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 button {

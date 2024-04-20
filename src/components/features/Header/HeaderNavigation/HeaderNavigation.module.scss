@@ -1,0 +1,94 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 100%;
+
+    .burgerBtn {
+        width: 3rem;
+        color: var(--accent-color, $accent-color);
+    }   
+    
+
+    .list {
+        position: fixed;
+        top: $header-height;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+        background-color: var(--primary-color-variant, $primary-color-variant);
+        gap: 2px;
+        border-radius: 0 0 $border-radius $border-radius;
+        transform: scaleY(0);
+        transform-origin: top center;
+        z-index: 1000;
+        transition: transform .3s cubic-bezier(.5, 0, .5, 1); 
+
+
+        &.opened {
+            transform: scaleY(1);
+        }
+
+        .link {
+            display: block;
+            padding: 1rem;
+            text-align: center;
+            color: var(--primary-color, $primary-color);
+            background-color: var(--accent-color, $accent-color);
+            border-radius: $border-radius-sm;
+            box-shadow: $basic-shadow;
+            border: 1px solid var(--accent-color, $accent-color);
+            transition: 
+                background-color .3s ease-in-out, 
+                color .3s  ease-in-out, 
+                font-weight .3s ease-in-out;
+
+            &:is(:hover, :focus-within, .active) {
+                background-color: var(--primary-color-variant, $primary-color-variant);
+                color: var(--accent-color, $accent-color);
+            }
+
+            &.active {
+                filter: brightness(.85);
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px){
+
+        .burgerBtn {
+            display: none;
+        }
+
+        .list {
+            position: static;
+            transform: scaleY(1);
+            background-color: transparent;
+            gap: 1.5rem;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+
+            .link {
+                padding: 0;
+                background-color: transparent;
+                box-shadow: none;
+                border: none;
+                color: var(--secondary-color, $secondary-color);
+
+                &:is(:hover, :focus-within, .active) {
+                    background-color: transparent;
+                    color: var(--accent-color, $accent-color);
+                }
+                
+                &.active {
+                    font-weight: 900;
+                }
+            }
+
+        }
+        
+    }
+}
