@@ -9,12 +9,17 @@ $accent-color: #180444;
 $border-radius: 20px;
 $border-radius-sm: 10px;
 
-$basic-shadow: 0 0 10px rgb(255, 255, 255, .05);
+$light-shadow: 0 0 10px rgb(255, 255, 255, .05);
+$dark-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
 $header-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
 $header-height: 5.5rem;
 $header-padding-y: .75rem;
 
 $main-top-padding: $header-height;
-$website-padding: 5vw;
+
+
+// $website-padding-lg: 12.5vw;
+// $website-padding-md: 12.5vw;
+// $website-padding-sm: 12.5vw;
 

@@ -1,0 +1,54 @@
+.projectCard {
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    padding: 2rem;
+    background-color: var(--primary-color-variant, $primary-color-variant);
+    color: var(--secondary-color, $secondary-color);
+    border-radius: $border-radius;
+    box-shadow: var(--light-shadow, $light-shadow);
+    border: 1px solid var(--primary-color, $primary-color);
+    transition: transform .75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    &:is(:hover, :focus-within) {
+        transform: translateY(-10px) scale(1.01);
+
+        img {
+            transform: rotateZ(4deg) scale(0.95);
+        }
+    }
+
+
+    img {
+        display: block;
+        margin: 0 auto;
+        min-height: 100%;
+        max-height: 60vh;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+        border-radius: $border-radius;
+        border: 1px solid var(--accent-color, $accent-color);
+        background-color: var(--accent-color, $accent-color);
+        box-shadow: var(--dark-shadow, $dark-shadow);
+        
+        transition: transform .75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .content {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+
+
+
+    
+    @media screen and (min-width: 1200px) {
+        grid-template-columns: 1fr 1fr;
+
+        .content {
+            padding: 2rem 10%;
+        }
+    }
+}

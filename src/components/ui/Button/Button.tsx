@@ -11,10 +11,11 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 type Props = (LinkProps | ButtonProps) & {
     active?: boolean
+    secondary?: boolean
 }
 
-const Button = ({ children, className, active, ...props} : Props ) => {  
-    const classes = `${styles.btn} ${active ? styles.active : ""} ${className ? className : ""}`
+const Button = ({ children, className, secondary, active, ...props} : Props ) => {  
+    const classes = `${styles.btn} ${active ? styles.active : ""} ${className ? className : ""} ${secondary ? styles.secondary : styles.primary}`
     
     if (props.renderAs === 'link') {
         const { renderAs, ...newProps } = props

@@ -17,13 +17,23 @@ html {
 
     --accent-color: #180444;
 
-    --basic-shadow: 0 0 10px rgb(255, 255, 255, .05);
+    --light-shadow: 0 0 10px rgb(255, 255, 255, .15);
+    --dark-shadow: 0 0 10px rgb(0, 0, 0, .15);
+    
     --header-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+    --website-padding: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --website-padding: 12.5vw;
+    }
 }
 
 body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    line-height: 1.5;
 }
 
 button {
@@ -40,4 +50,29 @@ a {
 
 ul, ol {
     list-style: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.15rem;
+    font-weight: 400;
 }

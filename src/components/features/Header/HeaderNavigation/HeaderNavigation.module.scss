@@ -21,9 +21,11 @@
         background-color: var(--primary-color-variant, $primary-color-variant);
         gap: 2px;
         border-radius: 0 0 $border-radius $border-radius;
+        border-bottom: 1px solid var(--accent-color, $accent-color);
+        z-index: 1000;
+
         transform: scaleY(0);
         transform-origin: top center;
-        z-index: 1000;
         transition: transform .3s cubic-bezier(.5, 0, .5, 1); 
 
 
@@ -38,7 +40,7 @@
             color: var(--primary-color, $primary-color);
             background-color: var(--accent-color, $accent-color);
             border-radius: $border-radius-sm;
-            box-shadow: $basic-shadow;
+            box-shadow: $light-shadow;
             border: 1px solid var(--accent-color, $accent-color);
             transition: 
                 background-color .3s ease-in-out, 
@@ -70,6 +72,7 @@
             flex-direction: row;
             justify-content: center;
             padding: 0;
+            border: 0;
 
             .link {
                 padding: 0;

@@ -15,7 +15,14 @@
         height: 100%;
 
         svg {
+            transition: transform .75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             height: 100%;
+        }
+
+        &:is(:hover, :focus-within) {
+            svg {
+                transform: rotateZ(4deg) scale(0.95);
+            }
         }
     }
 

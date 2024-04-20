@@ -2,6 +2,7 @@ export type ProjectProps = {
     title: string,
     description: string,
     image: string,
+    isHomePage?: boolean,
 
     medias: ProjectMediaProps,
     button?: ProjectButtonProps

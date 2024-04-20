@@ -1,0 +1,12 @@
+.wrapper {
+    display: grid;
+    gap: 5rem;
+
+
+    @media screen and (min-width: 1200px) {        
+        .project:nth-child(2n) > :first-child > :first-child {
+            order: 1;
+    
+        }
+    }
+}
