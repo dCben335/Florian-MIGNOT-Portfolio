@@ -9,14 +9,18 @@ export type ProjectProps = {
 }
 
 export type ProjectButtonProps = {
-    title: string,
-    href: string
+    text: string,
+    link: string
 }
 
-export type ProjectMediaProps = {
+export type ProjectMediaProps =  ProjectImagesMediaProps | ProjectVideoMediaProps
+
+export type ProjectImagesMediaProps = {
     type: "images",
     images: string[]
-} | {
+}
+
+export type ProjectVideoMediaProps = {
     type: "video",
     video: string
 }
