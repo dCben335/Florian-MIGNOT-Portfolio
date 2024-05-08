@@ -20,7 +20,7 @@ html {
     --light-shadow: 0 0 10px rgb(255, 255, 255, .15);
     --dark-shadow: 0 0 10px rgb(0, 0, 0, .15);
     
-    --header-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+    --header-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
     --website-padding: 5vw;
 }
 
@@ -40,12 +40,16 @@ button {
     border: 0;
     background-color: transparent;
     color: inherit;
+    outline: none;
     cursor: pointer;
 }
+
 
 a {
     text-decoration: none;
     color: inherit;
+    outline: none;
+
 }
 
 ul, ol {
@@ -75,6 +79,15 @@ h4 {
 p {
     font-size: 1.15rem;
     font-weight: 400;
+}
+
+
+.animate-on-hover {
+    display: inline-block;
+    transition: transform .75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.animate-on-hover:is(:hover, :focus-within) {
+    transform: rotateZ(4deg) scale(0.95);
 }
 
 .swiper {

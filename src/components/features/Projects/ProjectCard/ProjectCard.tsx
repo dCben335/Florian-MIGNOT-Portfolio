@@ -4,6 +4,7 @@ import { slugify } from '@/utils/reformat';
 import Button from '@/components/ui/Button/Button';
 import { HTMLAttributes } from 'react';
 import Link from 'next/link';
+import parse from 'html-react-parser';
 
 type ProjectCardProps = ProjectProps & HTMLAttributes<HTMLElement>; {
 
@@ -21,7 +22,9 @@ const ProjectCard = ({ title, image, description, className, ...props } : Projec
                 </span>
                 <span className={styles.content}>
                     <h3>{title}</h3>
-                    <p>{shortDescription}</p>
+                    <div>
+                        {parse(shortDescription)}
+                    </div>
                     <Button secondary={false}>
                         Voir le projet
                     </Button>

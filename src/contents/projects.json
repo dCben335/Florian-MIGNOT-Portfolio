@@ -1,13 +1,13 @@
 [
     {
         "title": "NEON BAR",
-        "description": "Dans le cadre de ce projet fictif de création d'un restaurant à Dijon,<br> nous avons élaboré une proposition en réponse à un appel d'offres. Pour cette mission, nous avons imaginé le nom de notre agence ainsi que celui du restaurant. J'ai été chargé de créer divers supports de communication pour un restaurant fictif. Mon rôle consistait à concevoir des affiches, des flyers et à créer la maquette du site web du restaurant. La création de ces supports de communication visait à promouvoir le restaurant fictif et à attirer les clients potentiels. Chaque support devait refléter l'identité et l'ambiance du restaurant pour susciter l'intérêt du public. En collaboration avec mon équipe, nous avons réalisé des affiches et des flyers sur Adobe Illustrator et Photoshop. Ces supports ont été conçus avec soin pour mettre en avant les plats et l'atmosphère du restaurant, tout en respectant sa charte graphique. De plus, nous avons créé la maquette du site web du restaurant, en veillant à ce qu'elle soit conviviale, attrayante et fonctionnelle pour les utilisateurs.",
+        "description": "<p>Dans le cadre de ce projet fictif de <b>création d'un restaurant à Dijon</b>, nous avons élaboré une proposition en réponse à un appel d'offres. Pour cette mission, nous avons imaginé le nom de notre agence ainsi que celui du restaurant. J'ai été chargé de créer divers supports de communication pour un restaurant fictif. Mon rôle consistait à concevoir des affiches, des flyers et à créer la maquette du site web du restaurant. La création de ces supports de communication visait à promouvoir le restaurant fictif et à attirer les clients potentiels.<br><br> Chaque support devait refléter l'identité et l'ambiance du restaurant pour susciter l'intérêt du public. En collaboration avec mon équipe, nous avons réalisé des affiches et des flyers sur Adobe Illustrator et Photoshop. Ces supports ont été conçus avec soin pour mettre en avant les plats et l'atmosphère du restaurant, tout en respectant sa charte graphique. De plus, nous avons créé la maquette du site web du restaurant, en veillant à ce qu'elle soit conviviale, attrayante et fonctionnelle pour les utilisateurs.</p>",
+        "slug": "neon_bar",
         "image": "/assets/projects/neon_bar/images/1.jpg",
         "isHomePage": true,
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/neon_bar/images/1.jpg",
                 "/assets/projects/neon_bar/images/2.jpg",
                 "/assets/projects/neon_bar/images/3.jpg",
@@ -23,56 +23,49 @@
                 "/assets/projects/neon_bar/images/13.jpg"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/neon_bar/content.pdf"
-        }        
-    }, 
+        }
+    },
     {
         "title": "Création d'un Site Web pour le Festival Rapapalooza",
         "description": "Le festival de rap Rapapalooza est un événement majeur dans le domaine de la musique hip-hop, attirant des fans du monde entier pour célébrer la culture urbaine et découvrir des artistes émergents ainsi que des têtes d'affiche renommées. L'objectif de ce projet était de réaliser un site web pour promouvoir le festival de rap Rapapalooza. Le site a été conçu pour offrir aux visiteurs une expérience immersive et informative sur l'événement, ainsi que pour faciliter l'achat de billets et de produits dérivés. J'ai réalisé ce site web en utilisant le CMS Wordpress, ce qui m'a permis de créer plusieurs pages dédiées à l'événement, y compris une section pour présenter les artistes, un calendrier, des informations pratiques et bien plus encore. De plus, j'ai mis en place une boutique en ligne à l'aide du plugin WooCommerce pour la vente de billets, ainsi qu'une section spéciale dédiée à la vente de vêtements et d'articles promotionnels du festival.",
         "image": "/assets/projects/rapapalooza/images/image_page_accueil.png",
         "isHomePage": true,
-
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/rapapalooza/images/image_page_accueil.png"
             ]
         },
-
         "button": {
             "text": "Voir le site web",
             "link": "https://rapapalooza.florianmignot.fr"
-        }        
-    }, 
+        }
+    },
     {
         "title": "Tiers Lieux BFC",
         "description": "L'événement les Chemins de Traverse visait à faciliter l'interconnaissance des tiers-lieux, à permettre la montée en compétences des participants sur certaines thématiques et à ouvrir des espaces pour mettre en lumière des coopérations existantes et discuter de coopérations à venir. Pour l'événement les Chemins de Traverse, la première rencontre régionale de Tiers-lieux en Bourgogne-Franche-Comté, qui s'est tenue les 5 et 6 octobre 2023 à l'Espace Paul Orssaud à Genlis, j'ai été chargé de capturer des images de l'événement et de créer un trailer pour en résumer les moments forts. J'ai utilisé le logiciel Adobe Premiere Pro pour réaliser ce trailer, permettant ainsi de mettre en valeur les moments clés de l'événement. Le trailer que j'ai réalisé a permis de condenser les deux journées d'événement en un résumé captivant. Il met en avant les moments forts tels que les tables rondes, les ateliers thématiques, la soirée conviviale ainsi que l'Assemblée Générale.",
         "image": "/assets/projects/projet_tiers_lieux/images/logo_tiers_lieux_bfc.png",
         "isHomePage": true,
-
-        "medias" : {
+        "medias": {
             "type": "videos",
             "video": "https://youtu.be/OCfvpLNIGuM"
         },
-
         "button": {
             "text": "Voir la vidéo",
             "link": "https://youtu.be/OCfvpLNIGuM"
-        }    
+        }
     },
     {
         "title": "SHERLOCK HOMES PROJECT",
         "description": "Le projet consiste en l'organisation et la communication d'un événement fictif sur le personnage de Sherlock Holmes prévu pour le 2 juin 2023 sur le campus de l'université de Dijon. Ce projet s'est déroulé en groupe, et nous avons été mené à concevoir des visuels attrayants et impactants pour promouvoir l'événement. Cette initiative collaborative a nécessité la création de supports visuels attrayants pour susciter l'intérêt autour de l'événement. Nous avons élaboré des publications pour les médias sociaux, des invitations VIP et grand public, ainsi que des affiches intrigantes. Notre objectif était d'incarner l'esprit de Sherlock Holmes et d'enthousiasmer les fans grâce à des éléments visuels percutants, tout en maintenant une cohérence esthétique à travers l'utilisation de couleurs, de typographies et de graphismes spécifiques. De plus, nous avons établi un planning détaillé à l'aide d'un diagramme de Gantt pour organiser efficacement notre stratégie de communication. Les invitations et d'autres supports de communication ont étés réalisés sur Adobe Illustrator & Photoshop.",
         "image": "/assets/projects/sherlock_holmes/images/1.jpg",
         "isHomePage": true,
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/sherlock_holmes/images/1.jpg",
                 "/assets/projects/sherlock_holmes/images/2.jpg",
                 "/assets/projects/sherlock_holmes/images/3.jpg",
@@ -94,74 +87,66 @@
                 "/assets/projects/sherlock_holmes/images/19.jpg"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/sherlock_holmes/content.pdf"
-        }        
+        }
     },
     {
         "title": "Un bûcheron fait une étrange découverte",
         "description": "L'objectif de ce projet était de rédiger un article de presse en anglais en sélectionnant un thème parmi plusieurs propositions. Pour cette réalisation, j'ai choisi un thème intrigant mettant en scène un bûcheron découvrant un loup mort dans les bois, déclenchant ainsi une enquête policière.",
         "image": "/assets/projects/article_de_presse_bucheron_anglais/images/article_de_presse.jpg",
-        
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/article_de_presse_bucheron_anglais/images/article_de_presse.jpg"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/article_de_presse_bucheron_anglais/content.pdf"
-        }        
-    }, 
+        }
+    },
     {
         "title": "Charte Graphique de JÄÄtelÖ",
         "description": "L'objectif de ce projet était de concevoir une charte graphique complète pour une société fictive basée à Dijon. Cette société, nommée JÄÄtelÖ, est un glacier spécialisé dans la vente de crèmes glacées et de sorbets faits maison à partir de fruits frais. JÄÄtelÖ se démarque par sa spécialisation dans les glaces aux fruits, offrant ainsi une expérience gustative unique à ses clients. Dans le cadre de ce projet, j'ai créé un logo distinctif pour JÄÄtelÖ à l'aide d'Adobe Illustrator. Ce logo incarne l'essence de la marque, capturant son engagement envers des produits artisanaux de qualité et mettant en valeur sa spécialisation dans les glaces aux fruits. Outre la conception du logo, j'ai également élaboré des cartes de visite professionnelles ainsi que d'autres supports visuels pour consolider l'identité de l'entreprise.",
         "image": "/assets/projects/charte_graphique_glacier/images/presentation.jpg",
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/charte_graphique_glacier/images/logo.png",
                 "/assets/projects/charte_graphique_glacier/images/recto.png",
                 "/assets/projects/charte_graphique_glacier/images/verso.png"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/charte_graphique_glacier/content.pdf"
-        }        
-    }, 
+        }
+    },
     {
         "title": "One Piece Film Red",
         "description": "Ce projet consistait à rédiger un communiqué de presse en annonçant la sortie imminente du film One Piece Film Red. L'objectif était de susciter l'intérêt du public et de l'inciter à aller voir le film dès sa sortie en salle.",
         "image": "/assets/projects/communique_de_presse_one_piece_film_red/images/communique_de_presse_1.jpg",
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/communique_de_presse_one_piece_film_red/images/communique_de_presse_1.jpg",
                 "/assets/projects/communique_de_presse_one_piece_film_red/images/communique_de_presse_2.jpg"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/communique_de_presse_one_piece_film_red/content.pdf"
-        }        
-    }, 
+        }
+    },
     {
         "title": "Campagne - Publicitaire pour une maison de retraite",
         "description": "Dans le cadre de la création d'une maison de retraite, l'objectif de ce projet était de concevoir une campagne publicitaire visant à promouvoir une prestigieuse maison de retraite située dans la ville de Birmingham, au Royaume-Uni. La mission était de mettre en avant les avantages et les caractéristiques uniques de cette résidence pour personnes âgées afin d'attirer l'attention des personnes recherchant un lieu de vie confortable et sécurisé pour leurs proches. Pour renforcer l'impact de la campagne publicitaire, une identité visuelle a été soigneusement définie, incorporant des couleurs qui évoquent la sérénité, la sécurité et le bien-être des résidents. Des visuels accrocheurs ont été créés à l'aide d'outils de conception tels que Canva, Adobe Illustrator et Photoshop, afin de capturer l'essence chaleureuse et accueillante de la maison de retraite.",
         "image": "/assets/projects/maison_de_retraite/images/1.jpg",
-
-        "medias" : {
+        "medias": {
             "type": "images",
-            "images" : [
+            "images": [
                 "/assets/projects/maison_de_retraite/images/1.jpg",
                 "/assets/projects/maison_de_retraite/images/2.jpg",
                 "/assets/projects/maison_de_retraite/images/3.jpg",
@@ -173,25 +158,22 @@
                 "/assets/projects/maison_de_retraite/images/9.jpg"
             ]
         },
-
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/maison_de_retraite/content.pdf"
-        }        
-    }, 
+        }
+    },
     {
         "title": "IUT'ERVIEW",
         "description": "L'Iut'erview est une série de vidéos d'interviews mettant en lumière des étudiants de l'IUT qui ont des passions, des sports ou des activités hors du commun. Chaque épisode offre un aperçu du parcours scolaire des étudiants, de leurs activités et de leur capacité à concilier études et passions. L'objectif de cette série est de présenter des témoignages authentiques et sincères, tout en mettant en valeur les réussites et les passions des étudiants de l'IUT. Dans cette vidéo, nous interviewons Maëva Liodon, étudiante en BUT Info-Com et membre de l'association de la Croix-Rouge de Dijon. Pour cet épisode, nous avons introduit le concept original Hot and Cold, permettant d'obtenir des réponses spontanées et réfléchies de Maëva. Les questions Hot sont posées sans préparation préalable, tandis que les questions Cold sont plus complexes et permettent des réponses plus réfléchies. Le montage vidéo a été réalisé sur Adobe Première Pro.",
         "image": "/assets/projects/projet_interview_iut_croix_rouge/images/logo_iuterview.png",
-
-        "medias" : {
+        "medias": {
             "type": "videos",
             "video": "https://youtu.be/fiLQLgwbFgE"
         },
-
         "button": {
             "text": "Voir la vidéo",
             "link": "https://youtu.be/fiLQLgwbFgE"
-        }    
+        }
     }
 ]

@@ -35,7 +35,7 @@ const Header = ({} : HeaderProps) => {
     return (
         <header className={styles.header}>
             <Link href={"/"} className={styles.logo}>
-                <Logo />
+                <Logo className={"animate-on-hover"}/>
             </Link>
 
             <HeaderNavigation pages={pages} className={styles.navigation} />

@@ -33,7 +33,7 @@ const HeaderNavigation = ({ pages, className, ...props } : HeaderNavigationProps
                     <li key={index}>
                         <Link 
                             href={href} 
-                            className={`${styles.link} ${href === pathname ? styles.active : ""}`} 
+                            className={`${styles.link} ${href === pathname ? styles.active : ""} animate-on-hover`} 
                             onClick={() => handleBurgerClick()}
                         >
                             {title}
