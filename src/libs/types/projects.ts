@@ -7,6 +7,11 @@ export type ProjectProps = {
 
     medias: ProjectMediaProps,
     button?: ProjectButtonProps
+
+    meta: {
+        description: string
+        keywords: string[]
+    }
 }
 
 export type ProjectButtonProps = {

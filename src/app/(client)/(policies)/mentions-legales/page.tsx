@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import styles from '../page.module.scss';
+import { mentionsLegalesMetadata } from '@/contents/meta';
+import { Metadata } from 'next/types';
+
+export const metadata: Metadata = mentionsLegalesMetadata;
 
 
 const Page = () => {

@@ -16,4 +16,5 @@
 .textArea:is(:focus-within) {
     background-color: var(--primary-color, $primary-color);
     outline-color: $accent-color;
+    color: var(--secondary-color, $secondary-color);
 }

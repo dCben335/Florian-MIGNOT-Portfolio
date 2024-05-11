@@ -1,10 +1,12 @@
 import Projects from "@/components/features/Projects/Projects";
 import styles from "./page.module.scss";
-
-import data from "@/contents/projects.json";
 import { ProjectProps } from "@/libs/types/projects";
+import { projectsMetadata } from "@/contents/meta";
+import { Metadata } from "next/types";
+import data from "@/contents/projects.json";
 
 const projects = data as unknown as ProjectProps[];
+export const metadata: Metadata = projectsMetadata;
 
 const Page = () => {
     return (

@@ -1,4 +1,8 @@
+import { conditonsGeneralesMetadata } from '@/contents/meta';
 import styles from '../page.module.scss';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = conditonsGeneralesMetadata;
 
 
 const Page = () => {

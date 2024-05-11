@@ -24,7 +24,12 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/neon_bar/content.pdf"
-        }        
+        },  
+        
+        "meta": {
+            "description": "Découvrez le projet fictif palpitant de création d'un restaurant à Dijon, mettant en lumière une proposition élaborée en réponse à un appel d'offres. Plongez dans l'univers imaginé de ce restaurant fictif à travers des supports de communication soigneusement conçus, incluant des affiches, des flyers et une maquette de site web. Chaque élément a été méticuleusement créé pour refléter l'identité et l'ambiance du restaurant, visant à attirer les clients potentiels et à susciter leur intérêt.",
+            "keywords": ["Projet fictif, Restaurant, Dijon, Appel d'offres, Supports de communication, Affiches, Flyers, Site web, Adobe Illustrator, Adobe Photoshop, Identité visuelle, Ambiance, Convivialité"]
+        }
     }, 
     {
         "title": "Création d'un Site Web pour le Festival Rapapalooza",
@@ -42,7 +47,12 @@
         "button": {
             "text": "Voir le site web",
             "link": "https://rapapalooza.florianmignot.fr"
-        }        
+        },
+        
+        "meta": {
+            "description": "Découvrez le site web dynamique du festival de rap Rapapalooza, un événement emblématique célébrant la culture hip-hop. Conçu pour offrir une expérience immersive aux passionnés de musique urbaine, ce site présente les artistes, le calendrier des événements et facilite l'achat de billets et de produits dérivés, le tout grâce à l'utilisation habile du CMS Wordpress et du plugin WooCommerce.",
+            "keywords": ["Festival de rap, Rapapalooza, Musique hip-hop, Culture urbaine, Site web, CMS Wordpress, Expérience immersive, Artistes émergents, Têtes d'affiche, Billets, Produits dérivés, WooCommerce, Boutique en ligne"]
+        }
     },
     {
         "title": "Tiers Lieux BFC",
@@ -58,7 +68,12 @@
         "button": {
             "text": "Voir la vidéo",
             "link": "https://www.youtube.com/watch?v=OCfvpLNIGuM"
-        }    
+        },
+        
+        "meta": {
+            "description": "Découvrez les moments forts de l'événement Les Chemins de Traverse, la première rencontre régionale des Tiers-lieux en Bourgogne-Franche-Comté, à travers un trailer captivant. Réalisé avec talent sur Adobe Premiere Pro, ce trailer condense les deux journées d'événement en mettant en lumière les tables rondes, les ateliers thématiques et l'ambiance conviviale de cette rencontre majeure.",
+            "keywords": ["Événement, Les Chemins de Traverse, Tiers-lieux, Bourgogne-Franche-Comté, Espace Paul Orssaud, Genlis, Captation d'images, Trailer, Adobe Premiere Pro, Moments forts, Tables rondes, Ateliers thématiques, Ambiance conviviale"]
+        }
     },
     {
         "title": "SHERLOCK HOMES PROJECT",
@@ -89,7 +104,12 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/sherlock_holmes/content.pdf"
-        }        
+        },
+        
+        "meta": {
+            "description": "Découvrez l'événement fictif captivant mettant en vedette le célèbre détective Sherlock Holmes, organisé sur le campus de l'université de Dijon. À travers des visuels percutants et une communication soigneusement orchestrée, plongez dans l'univers mystérieux de Sherlock Holmes grâce à des publications sur les réseaux sociaux, des invitations VIP et des affiches intrigantes. Ce projet collaboratif a su captiver les fans en incarnant l'esprit du détective tout en maintenant une cohérence esthétique remarquable.",
+            "keywords": ["Événement fictif, Sherlock Holmes, Université de Dijon, Visuels attrayants, Communication, Médias sociaux, Invitations VIP, Affiches, Cohérence esthétique, Stratégie de communication, Diagramme de Gantt, Adobe Illustrator, Adobe Photoshop"]
+        }
     }, 
     {
         "title": "IUT'ERVIEW",
@@ -105,7 +125,12 @@
         "button": {
             "text": "Voir la vidéo",
             "link": "https://www.youtube.com/watch?v=fiLQLgwbFgE"
-        }    
+        },
+        
+        "meta": {
+            "description": "Découvrez l'Iut'erview, une série de vidéos d'interviews captivantes mettant en avant les étudiants de l'IUT de Dijon et leurs passions extraordinaires. Plongez dans le parcours scolaire et les activités des étudiants à travers des témoignages authentiques et sincères, présentés avec originalité à travers le concept Hot and Cold. Chaque épisode offre un regard unique sur la capacité des étudiants à concilier études et passions, avec un montage vidéo soigneusement réalisé sur Adobe Première Pro.",
+            "keywords": ["Iut'erview, Vidéos d'interviews, Étudiants, IUT de Dijon, Passions, Réussites, Témoignages, Concept Hot and Cold, Montage vidéo, Adobe Première Pro, Originalité, Conciliation études-passions"]
+        }
     },
     {
         "title": "Un bûcheron fait une étrange découverte",
@@ -122,7 +147,12 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/article_de_presse_bucheron_anglais/content.pdf"
-        }        
+        },
+        
+        "meta": {
+            "description": "Plongez dans une enquête captivante alors qu'un bûcheron découvre un loup mort, déclenchant une série d'événements mystérieux dans les bois.",
+            "keywords": ["Article de presse, Enquête policière, Découverte mystérieuse, Forêt, Bûcheron, Loup mort, Intrigue, Anglais, Rédaction"]
+        }
     }, 
     {
         "title": "Charte Graphique de JÄÄtelÖ",
@@ -143,7 +173,12 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/charte_graphique_glacier/content.pdf"
-        }        
+        },
+        
+        "meta": {
+            "description": "Découvrez la charte graphique vibrante de JÄÄtelÖ, un glacier fictif de Dijon spécialisé dans les glaces aux fruits. Plongez dans l'univers coloré de cette marque artisanale à travers son logo distinctif et ses supports visuels professionnels, capturant l'essence de ses produits faits maison",
+            "keywords": ["Charte graphique, JÄÄtelÖ, Glacier, Crèmes glacées, Sorbets, Fruits frais, Dijon, Logo, Identité visuelle, Artisanat, Adobe Illustrator, Cartes de visite"]
+        }
     }, 
     {
         "title": "One Piece Film Red",
@@ -162,7 +197,12 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/communique_de_presse_one_piece_film_red/content.pdf"
-        }        
+        },
+        
+        "meta": {
+            "description": "Découvrez le communiqué de presse annonçant la sortie imminente du film One Piece Film Red. Plongez dans l'univers épique de cette nouvelle aventure, conçue pour captiver les fans et attirer les spectateurs dès son arrivée sur grand écran.",
+            "keywords": ["Communiqué de presse, One Piece Film Red, Sortie imminente, Film d'animation, Aventure, Univers épique, Fans, Spectateurs, Grand écran"]
+        }
     }, 
     {
         "title": "Campagne Publicitaire pour une maison de retraite",
@@ -188,6 +228,11 @@
         "button": {
             "text": "Télécharger le projet",
             "link": "/assets/projects/maison_de_retraite/content.pdf"
-        }        
+        },
+        
+        "meta": {
+            "description": "Découvrez la campagne publicitaire enchanteresse d'une prestigieuse maison de retraite à Birmingham, au Royaume-Uni. Conçue pour séduire les familles en quête d'un environnement sûr et confortable pour leurs proches âgés, cette campagne met en lumière les caractéristiques uniques de la résidence à travers une identité visuelle apaisante et des visuels captivants.",
+            "keywords": ["Campagne publicitaire, Maison de retraite, Birmingham, Royaume-Uni, Confort, Sécurité, Bien-être, Personnes âgées, Identité visuelle, Visuels accrocheurs, Canva, Adobe Illustrator, Adobe Photoshop"]
+        }
     }
 ]

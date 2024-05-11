@@ -4,8 +4,6 @@ import { ZodString, ZodType } from "zod";
 import { ForwardRefExoticComponent } from 'react';
 
 import TextArea from "@/components/ui/TextArea/TextArea"; 
-import Select from "@/components/ui/Select/Select"; 
-import Checkbox from "@/components/ui/CheckBox/CheckBox"; 
 import Input from "@/components/ui/Input/Input"; 
 import Label from "@/components/ui/Label/Label";
 
@@ -61,8 +59,6 @@ interface Possibilities {
 const FormGroup = ({ name, label, type, options, defaultValue, placeholder, register, errorMessage, className }: FormGroupProps) => {
     const possibilities: Possibilities = {
         textarea: TextArea,
-        select: Select,
-        checkbox: Checkbox,
     }
 
     const FieldComponent = possibilities[type] ?? Input;
