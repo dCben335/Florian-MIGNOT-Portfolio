@@ -15,7 +15,7 @@ const VideoAutoPlay = ({ fileName, className, ...props }: VideoAutoPlayProps) =>
         if (videoRef.current) {
             videoRef.current.play();
         }
-    }, [videoRef])
+    }, [videoRef, isClient])
 
 
     return (

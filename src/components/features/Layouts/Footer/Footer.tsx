@@ -23,6 +23,10 @@ const siteMap = [
     {
         title: "Mentions légales",
         link: "/mentions-legales"
+    },
+    {
+        title: "Conditions générales",
+        link: "/conditions-generales"
     }
 ]
 

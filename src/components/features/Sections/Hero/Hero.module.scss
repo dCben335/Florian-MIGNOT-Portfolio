@@ -1,0 +1,33 @@
+.hero {
+    padding-top: $header-height;
+    height: 100vh;
+    color: $primary-color;
+
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    } 
+
+    .contentContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0 var(--website-padding);
+        z-index: 2;
+
+        .title {
+            margin-top: 2px;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+    }
+}

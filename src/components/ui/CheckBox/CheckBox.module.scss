@@ -6,8 +6,9 @@
     aspect-ratio: 1;
     padding: 0.15rem; 
 
-    background-color: var(--primary-color, $primary-color);
-    box-shadow: var(--basic-shadow, $basic-shadow);
+    background-color: var(--secondary-color-variant, $secondary-color-variant);
+    color: var(--primary-color, $primary-color);
+    box-shadow: var(--dark-shadow, $dark-shadow);
     border-radius: 5px;
 }
 

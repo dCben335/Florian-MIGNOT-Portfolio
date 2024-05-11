@@ -1,0 +1,54 @@
+
+.container {
+    position: relative;
+    
+    &::after {
+        content: "a";
+        opacity: 0;
+    }
+
+    .text {
+        position: absolute;
+        opacity: 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 2.5px;
+            width: 100%;
+            height: 3px;
+            transform-origin: left;
+            background-color: $primary-color;
+        }
+        &.active {
+            animation: animatedTextReaveal 3s cubic-bezier(.165,.84,.44, 1) forwards;
+
+            &::before {
+                animation: animatedTextReavealAfter 3s cubic-bezier(.165,.84,.44, 1) forwards;
+            }
+        }
+    }
+}
+@keyframes animatedTextReavealAfter {
+    0% {
+        opacity: 0;
+        transform: scaleX(0)
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+@keyframes animatedTextReaveal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

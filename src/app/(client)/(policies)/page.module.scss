@@ -1,0 +1,22 @@
+.main {
+    padding: $header-height + 2.5rem 0 5rem 0;
+
+    section {
+        padding: 0 var(--website-padding);
+
+        .title {
+            display: grid;
+            place-items: center;
+
+            small {
+                font-size: .85rem;
+            }
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+}

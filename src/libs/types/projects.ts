@@ -2,6 +2,7 @@ export type ProjectProps = {
     title: string,
     description: string,
     image: string,
+    slug: string,
     isHomePage?: boolean,
 
     medias: ProjectMediaProps,

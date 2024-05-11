@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.scss";
 import Header from "@/components/features/Layouts/Header/Header";
 import Footer from "@/components/features/Layouts/Footer/Footer";
+import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
   
@@ -19,8 +20,9 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={inter.className}>
+        <Toaster closeButton duration={3000} richColors/>
         <Header />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>

@@ -1,0 +1,61 @@
+.section {
+    background-color: $primary-color;
+    padding: 5rem var(--website-padding);
+    display: grid;
+    gap: 2rem;
+
+    .title {
+        text-align: center;
+    }
+
+    .gridContainer {
+        display: grid;
+        gap: 2rem;
+
+        .content {
+            display: grid;
+            gap: 2rem;
+
+            .link {
+                text-decoration: underline;
+            }
+        }
+
+        .imageContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            
+            .cvButton {
+                width: max-content;
+            }
+
+            .image {
+                position: relative;
+                width: 100%;
+                max-width: 500px;
+                margin: 0 auto;
+                aspect-ratio: 1;
+                align-content: center;
+
+                img {
+                    border-radius: $border-radius;
+                }
+            }
+        }
+
+
+    }
+    @media screen and (min-width: 1400px) {
+        gap: 4rem;
+        .gridContainer {
+            grid-template-columns: 2fr 1fr;   
+            gap: 4.5rem;
+            .content {
+                order: -1;
+            }
+        }
+    }
+}

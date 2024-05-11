@@ -10,8 +10,8 @@ type ProjectCardProps = ProjectProps & HTMLAttributes<HTMLElement>; {
 
 };
 
-const ProjectCard = ({ title, image, description, className, ...props } : ProjectCardProps) => {
-    const projectLink = `/projets/${slugify(title)}`;
+const ProjectCard = ({ title, image, description, isHomePage, medias, button, slug, className, ...props } : ProjectCardProps) => {
+    const projectLink = `/projets/${slug}`;
     const shortDescription = description.length > 200 ? `${description.slice(0, 300)}...` : description;
 
     return (

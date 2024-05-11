@@ -1,0 +1,20 @@
+.contact {
+    display: grid;
+    gap: 3rem;
+    place-items: center;
+    padding: 0 var(--website-padding);
+    
+    .title {
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 800px;
+
+        button {
+            width: max-content;
+            margin: 0 auto;
+        }
+    }
+}
