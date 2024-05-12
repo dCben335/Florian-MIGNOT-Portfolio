@@ -1,0 +1,6 @@
+# Disable directory slash appending
+DirectorySlash Off
+
+# Redirect /projets to /projets.html explicitly
+RewriteEngine On
+RewriteRule ^projets$ /projets.html [R=301,L]

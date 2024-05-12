@@ -7,6 +7,7 @@ import { Toaster } from "sonner";
 import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({
   children,
@@ -15,15 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <body className={inter.className}>
         <Toaster closeButton duration={3000} richColors/>
         <Header />
           {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="GTM-M9JNK4MX" />
     </html>
   );
 }

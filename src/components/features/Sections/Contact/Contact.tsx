@@ -75,7 +75,7 @@ const Contact = ({ className, ...props } : ContactProps) => {
 
     return (
         <section className={styles.contact}>
-            <h1 className={styles.title}>Contactez moi</h1>
+            <h1 className={styles.title}>Contactez-moi</h1>
             <div className={styles.form}>
                 <Form 
                     fields={fields} 

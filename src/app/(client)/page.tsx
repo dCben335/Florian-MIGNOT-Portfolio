@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Hero title="Portfolio de Florian Mignot"/>
+      <Hero />
       <About />
       <Projects 
         projects={homePageProjects} 

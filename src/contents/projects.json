@@ -40,7 +40,17 @@
         "medias" : {
             "type": "images",
             "images" : [
-                "/assets/projects/rapapalooza/images/image_page_accueil.png"
+                "/assets/projects/rapapalooza/images/image_page_accueil.png",
+                "/assets/projects/rapapalooza/images/2.jpg",
+                "/assets/projects/rapapalooza/images/3.jpg",
+                "/assets/projects/rapapalooza/images/4.jpg",
+                "/assets/projects/rapapalooza/images/5.jpg",
+                "/assets/projects/rapapalooza/images/6.jpg",
+                "/assets/projects/rapapalooza/images/7.jpg",
+                "/assets/projects/rapapalooza/images/8.jpg",
+                "/assets/projects/rapapalooza/images/9.jpg",
+                "/assets/projects/rapapalooza/images/10.jpg",
+                "/assets/projects/rapapalooza/images/11.jpg"
             ]
         },
 

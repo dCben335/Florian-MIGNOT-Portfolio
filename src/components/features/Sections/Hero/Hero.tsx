@@ -7,7 +7,7 @@ type HeroProps = HTMLAttributes<HTMLElement> & {
 }
 
 const Hero = ({ className, ...props } : HeroProps) => {
-    const animatedTexts = ["Communication.", "Marketing.", "Digital.", "Vidéo.", "Graphisme.", "Développement web."];
+    const animatedTexts = ["Communication.", "Marketing.", "Digital.", "SEO & SEA.", "Réseaux sociaux.", "Vidéo.",  "WordPress.", "Shopify"];
 
     return (
         <section className={`${styles.hero} ${className ? className: ""}`} {...props}>

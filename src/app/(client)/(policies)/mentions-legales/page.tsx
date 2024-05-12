@@ -19,7 +19,7 @@ const Page = () => {
                         <h2>Introduction</h2>
                         <p>Dans le cadre de son activité, Florian Mignot est amenée à collecter et à traiter des informations
                             dont certaines sont qualifiées de «&nbsp;données personnelles&nbsp;». Il attache une grande
-                            importance au respect de la vie privée, et n&apos;utilise que des donnes de manière responsable et
+                            importance au respect de la vie privée, et n&apos;utilise que des données de manière responsable et
                             confidentielle et dans une finalité précise.</p>
                     </article>
                     <article>
