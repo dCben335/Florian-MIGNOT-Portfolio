@@ -2,8 +2,6 @@
 
 import Link from 'next/link';
 import styles from './Header.module.scss';
-import BurgerButton from '@/components/ui/BurgerButton/BurgerButton';
-import { useState } from 'react';
 import HeaderNavigation from './HeaderNavigation/HeaderNavigation'
 import Logo from '@/components/Icons/Logo';
 

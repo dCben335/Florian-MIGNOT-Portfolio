@@ -6,18 +6,19 @@ import Button from "@/components/ui/Button/Button";
 import { notFound } from "next/navigation";
 import ProjectSwiper from "@/components/features/Projects/ProjectSwiper/ProjectSwiper";
 import parse from 'html-react-parser';
-import { Metadata, ResolvingMetadata } from "next/types";
+import { Metadata, ResolvingMetadata } from "next";
 import { authors, category, robots, siteName } from "@/contents/meta";
 
 const projects = data as unknown as ProjectProps[];
 type PageProps = {
-    params:  {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 }
 
 export async function generateMetadata({ params }: PageProps, parent: ResolvingMetadata): Promise<Metadata> {
-    const project = projects.find((project) => project.slug === params.slug);
+    const { slug } = await params;
+    const project = projects.find((project) => project.slug === slug);
 
     const previousImages = (await parent).openGraph?.images || []
 
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: PageProps, parent: ResolvingM
                 { 
                     url: project?.image || "", 
                     alt: project?.title || "Projet non trouvé",
-                    pathname: `/projets/${params.slug}`
+                    pathname: `/projets/${slug}`
                 }
             ]
         },
@@ -47,8 +48,9 @@ export async function generateStaticParams() {
     }));
 }
 
-const Page = ({ params }: PageProps) => {
-    const project = projects.find((project) => project.slug === params.slug);
+const Page = async ({ params }: PageProps) => {
+    const { slug } = await params;
+    const project = projects.find((project) => project.slug === slug);
     if (!project) {
         notFound();
     }

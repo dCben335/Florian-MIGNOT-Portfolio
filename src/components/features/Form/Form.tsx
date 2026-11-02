@@ -18,7 +18,7 @@ export interface GenerateFormProps {
 }
 
 
-const extractSchema = (fields: Record<string, FormFieldProps>): ZodType<FormData> => {
+const extractSchema = (fields: Record<string, FormFieldProps>): ZodType<FormData, FormData> => {
     const schemaObject: Record<string, ZodType<unknown>> = {};
 
     for (const fieldName in fields) {
@@ -27,12 +27,12 @@ const extractSchema = (fields: Record<string, FormFieldProps>): ZodType<FormData
         }
     }
 
-    return z.object(schemaObject) as ZodType<FormData>;
+    return z.object(schemaObject) as unknown as ZodType<FormData, FormData>;
 };
 
 
 const Form = ({ fields, onSubmit }: GenerateFormProps) => {
-    const schema: ZodType<FormData> = extractSchema(fields);
+    const schema: ZodType<FormData, FormData> = extractSchema(fields);
 
     const customResolver = async (values: FormData, context: any, options: any) => {
         const parsedData: FormData = {};

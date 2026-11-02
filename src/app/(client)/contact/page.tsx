@@ -1,7 +1,7 @@
 import Contact from "@/components/features/Sections/Contact/Contact";
 import styles from "./page.module.scss";
 import { contactMetadata } from "@/contents/meta";
-import { Metadata } from "next/types";
+import { Metadata } from "next";
 
 export const metadata: Metadata = contactMetadata;
 

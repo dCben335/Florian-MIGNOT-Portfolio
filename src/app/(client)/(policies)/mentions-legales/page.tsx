@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../page.module.scss';
 import { mentionsLegalesMetadata } from '@/contents/meta';
-import { Metadata } from 'next/types';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = mentionsLegalesMetadata;
 

@@ -4,10 +4,13 @@ import "./globals.scss";
 import Header from "@/components/features/Layouts/Header/Header";
 import Footer from "@/components/features/Layouts/Footer/Footer";
 import { Toaster } from "sonner";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 import { GoogleAnalytics } from '@next/third-parties/google'
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://florianmignot.fr"),
+};
 
 export default function RootLayout({
   children,

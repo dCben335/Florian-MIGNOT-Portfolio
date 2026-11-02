@@ -8,8 +8,7 @@ const nextConfig = {
     trailingSlash: false,
 
     sassOptions: {
-        includePaths: [path.join(__dirname, 'styles')],
-        prependData: `@import "/src/app/utils.scss";`
+        additionalData: `@use "${path.join(__dirname, 'src/app/utils.scss').replace(/\\/g, '/')}" as *;`,
     },
     images: {
         unoptimized: true,

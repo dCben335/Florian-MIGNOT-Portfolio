@@ -1,4 +1,4 @@
-import { Metadata } from "next/types";
+import { Metadata } from "next";
 
 export const siteName = 'Florian MIGNOT' satisfies Metadata["title"];
 export const category = 'Portfolio' satisfies Metadata["category"];
